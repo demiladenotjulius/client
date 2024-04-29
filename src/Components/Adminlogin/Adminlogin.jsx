@@ -35,6 +35,7 @@ const AdminLogin = () => {
           backgroundSize: "cover",
           backgroundPosition: "center",
           
+          
         }}
       >
         <div className="ml-10 md:flex justify-center items-center md:pt-24 pt-10">
@@ -99,21 +100,7 @@ const AdminLogin = () => {
               </button>
             </form>
 
-            <div className="md:flex text-center 	 ">
-              <p className="text-sm mt-4 font-body ml-9 mr-2">
-                Don't have an account?
-              </p>
-              <div className="md:mt-4 text-black no-underline">
-                <Link
-                  className="underline  text-sm text-[#ffa030]"
-                  style={{ textDecorationColor: '#ffa030', textDecorationLine: 'underline' }}
-
-                  to={"/Register"}
-                >
-                  Sign up
-                </Link>
-              </div>
-            </div>
+            
           </div>
         </div>
       </div>
